@@ -103,7 +103,7 @@ function addImage(url) {
                 addImage(fileReader.result);
             }
 
-            reader.readAsDataURL(xhr.response);
+            fileReader.readAsDataURL(xhr.response);
         };
 
         xhr.open("GET", url);
