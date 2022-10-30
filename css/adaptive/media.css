@@ -1,0 +1,12 @@
+@media screen and (max-width: 1024px) {
+  .app-loanzone__result {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .app-loadzone__item {
+    padding-left: 0;
+  }
+}

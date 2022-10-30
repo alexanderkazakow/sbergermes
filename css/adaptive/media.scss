@@ -1,0 +1,49 @@
+@media screen and (max-width: 1024px) {
+
+  .app-loadzone {
+    padding: 30px 25px;
+  }
+
+  .app-loanzone__result {
+    flex-direction: column;
+  }
+
+  .app-loadzone__file-info {
+    min-width: unset;
+  }
+
+  .app-loadzone__image-overlay {
+    display: flex;
+    justify-content: center;
+  }
+
+  .app-loadzone__image {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-loadzone__item {
+    padding-left: 0;
+    flex-direction: column;
+  }
+
+  .app-loadzone__info-section {
+    &:not(:first-child) {
+      margin-left: unset;
+    }
+  }
+
+  .app-loadzone__info-section_fw {
+
+    .app-loadzone__name {
+      margin-top: 12px;
+    }
+  }
+
+  .app-loadzone__clipboard {
+    padding: 17px 13px;
+    font-size: 14px;
+  }
+}
